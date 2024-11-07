@@ -1,0 +1,75 @@
+
+
+a{
+  text-align: center;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+body {
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/010/925/non_2x/modern-background-with-fluid-and-leaves-shape-green-pastel-color-free-vector.jpg);
+}
+
+
+
+.serv {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    background-color: rgba(95, 175, 142, 0.514);
+    text-align: center;
+
+}
+
+
+.serv img {         /*importante*/
+    height: 100Px;
+    height: 290px;
+    margin-left: 20px;
+
+}
+
+
+
+
+/* Contenedor principal */
+.container {
+
+    width: 100%;
+    padding: 0 15px; /* Espaciado en los laterales */
+    margin: 0 auto; /* Centrado horizontal */
+  }
+  
+  /* Fila */
+  .row {
+    display: flex;          /* Usamos flexbox para disposición de columnas */
+    flex-wrap: wrap;        /* Permite que las columnas se ajusten si el ancho es pequeño */
+    justify-content: center; /* Centrado de las columnas en el eje horizontal */
+  }
+  
+  /* Columnas */
+  .col {
+    flex: 1;                /* Las columnas toman el mismo espacio disponible */
+    margin: 10px;           /* Espaciado entre las columnas */
+    padding: 20px;          /* Espaciado interno */
+    text-align: center;     /* Centrado del texto */
+    border: 1px solid #ccc; /* Borde para visualización */
+  }
+  
+  /* Opcional: Ajustar el comportamiento en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .col {
+      flex: 1 1 100%; /* Las columnas ocuparán el 100% del ancho en pantallas pequeñas */
+    }
+  }
